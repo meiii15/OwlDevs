@@ -1,3 +1,32 @@
+// Definir altura e ajustar
+
+// var _AlturaDocumento = $(window).height();
+// function AlturaSecao() {
+//   $('.secao').height(_AlturaDocumento);
+
+// }
+
+// $(AlturaSecao);
+
+
+// Seçao scroll ajustar
+
+// function ScrollSecao() {
+//   console.log('entrou');
+//   if($(this).parent('.secao').is('#secao-01')) {
+//     $('body').animate({scrollTop: _AlturaJanela}, '500');
+//   } else if ($(this).parent('.secao').is('#secao-02')){
+//     $('body').animate({scrollTop: _AlturaJanela*2}, '500');
+//   } else if ($(this).parent('.secao').is('#secao-03')){
+//     $('body').animate({scrollTop: _AlturaJanela*3}, '500');
+//   } else {
+//   $('body').animate({scrollTop: 0}, '800');
+//   }
+// }
+
+
+
+// Slide
 var slideIndex = 1;
 
 function plusSlides(n) {

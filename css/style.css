@@ -3,7 +3,68 @@ body {
   background: #00000080 url(../imgs/background.jpg);
   background-size: cover;
   overflow-y: scroll;
+  margin: 0;
+  padding: 0;
 }
+
+
+/*AJUSTAR DEPOIS SCROLL SEÇAO*/
+/*#secao-01{
+	background-color: #000;
+}
+
+#secao-02{
+	background-color: #e7e7e7;
+}
+
+#secao-03{
+	background-color: #f7f7f7;
+}
+
+#secao-04{
+	background-color: #000;
+}
+
+.secao{
+	position: relative;
+}
+
+.icone-scroll{
+	position: absolute;
+	bottom: 3em;
+	width: 50px;
+	height: 50px;
+	background-color: #1a1a1a;
+	border-radius: 50%;
+	left: 50%;
+	margin-left: -25px;
+	cursor: pointer;
+}
+
+.scroll{
+	width: 15px;
+	height: 15px;
+	border-right: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	display: inline-block;
+	position: relative;
+}
+
+.scroll-next{
+	transform: rotate(45deg);
+	margin: 14px 0 0 16.5px;
+}
+
+.scroll-top{
+	transform: rotate(225deg);
+	margin: 19px 0 0 17px;
+}
+
+.scroll-top + .scroll-top{
+	top: -15px;
+	margin-top: 0;
+}
+*/
 
 .galho-top-right{
 	width: 200px;
@@ -34,8 +95,6 @@ body {
     background-repeat: no-repeat;
     top: 0%;
     left: 93%;
-    /* display: flex; */
-    /* justify-content: center; */
 }
 
 /*logo-header*/
@@ -54,14 +113,9 @@ body {
     background: url(../imgs/loguinho.png);
     background-size: 86%;
     position: absolute;
-    /* overflow: hidden; */
-    /* max-width: 100%; */
-    /* z-index: 100; */
     background-repeat: no-repeat;
     left: 34%;
     bottom: 25%;
-    /* display: flex; */
-    /* justify-content: center; */
 }
 
 /* MODAL */
@@ -72,14 +126,11 @@ margin-top: 10%;
 }
 
 .modal-style{
-	    background: #101010e3;
-    /* width: 337px; */
+	background: #101010e3;
     border: 2px solid #E6E6E6;
-    /* border-bottom: none; */
     margin-left: 2px;
     width: 17%;
     height: 155px;
-    /* width: 323px; */
 }
 
 .align-text-modal{
@@ -131,25 +182,7 @@ img {vertical-align: middle;}
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
-/*.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}*/
 
-/* Number text (1/3 etc) */
-/*.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}*/
 
 /* The dots/bullets/indicators */
 .dot {
@@ -190,23 +223,6 @@ img {vertical-align: middle;}
   .prev, .next,.text {font-size: 11px}
 }
 
-
- /* <!-- Navigation -->*/
- /*.sidenav{
- 	position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    padding: .5rem 1rem;
- }*/
  ul {
     list-style-type: none;
     padding: 0;
@@ -236,8 +252,6 @@ li a:hover:not(.active) {
 }
 
 .navbar{
-/*display: flex;
-justify-content: center;*/
 margin: 0%;
 box-shadow: #000 5px 12px 13px;
 }
@@ -248,7 +262,7 @@ box-shadow: #000 5px 12px 13px;
 }
 
 .btn-home{
-	    border: none;
+	border: none;
     background: url(../imgs/down-arrow.png);
     width: 50px;
     background-size: 100%;
@@ -257,9 +271,6 @@ box-shadow: #000 5px 12px 13px;
     cursor: pointer;
     position: absolute;
     z-index: 100;
-    /* display: flex; */
-    /*justify-content: center;*/
-
 }
 
 .btn-home:hover{
