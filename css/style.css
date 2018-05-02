@@ -1,24 +1,28 @@
-.page-section{
-    width:100pc;
-    height: 100pc;
+body{
+    background-image: url("../imgs/background.jpg");
 }
 
-.page-section::shadow div{
-    border:1px;
+.nav-menu{
+    font-family: 'Sans Serif';
+    --nav-color: white;
+    --nav-active-item-color:  #333230;
+    --nav-font-color:  #333230;
+    --nav-bg-color: #4e4c4574;
 }
 
-.page-section::shadow .vertical-centralizer{
-    width: 100%;
-    height: 100%;
+.nav-menu ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+.first-section{
     display: flex;
-    flex-flow: column; 
+    flex-flow: column;
     justify-content: center;
+    align-items: center;
 }
 
-.page-section::shadow .vertical-centralizer .horizontal-centralizer{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
+.first-section img{
+    width: 290px;
+    height: 290px;
 }

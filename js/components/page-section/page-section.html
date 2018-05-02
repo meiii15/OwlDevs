@@ -1,7 +1,33 @@
+<style>
+    
+    :host{
+        width:100pc;
+        height: 100pc;
+    }
+    
+    .vertical-centralizer{
+        height:100%;
+        width:100%;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+    }
+
+    .horizontal-centralizer{
+        width:100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-content{
+        height: 100%;
+        width: 100%;
+    }
+
+</style>
+
 <div class="vertical-centralizer">
     <div class="horizontal-centralizer">
-        <h1> TESTE do template </h1>
-        
         <slot name="section-content"></slot>
     </div>
 </div>

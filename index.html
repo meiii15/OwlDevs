@@ -1,21 +1,25 @@
 <DOCTYPE! html>
     <html>
         <head>
+            <script src="./js/commom.js"></script>
+            
             <script src="./js/components/navigation-header/navigation-header.js"></script>
-            <link rel="import" href="./js/components/navigation-header/navigation-header.html" onload="loadNavigationHeaderTemplate(event)">
+            <link rel="import" href="./js/components/navigation-header/navigation-header.html" onload="NavigationHeaderProto.onLoadTemplate(event)">
             
             <script src="./js/components/page-section/page-section.js"></script>
-            <link rel="import" href="./js/components/page-section/page-section.html" onload="loadSectionPageTemplate(event)">
-            
+            <link rel="import" href="./js/components/page-section/page-section.html" onload="SectionPageProto.onLoadTemplate(event)">
 
             <script src="./js/index.js"></script>
 
             <link rel="stylesheet" type="text/css" href="css/style.css">
         </head>
+        
         <body>
-            <page-section class="page-section">
-                <div slot="section-content">
-                    <navigation-header></navigation-header>
+            <page-section>
+                <div slot="section-content" class="first-section">
+                    <img src="./imgs/loguinho.png"/>
+
+                    <navigation-header class="nav-menu"></navigation-header>
                 </div>
             </page-section>
         </body>
