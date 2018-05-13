@@ -7,7 +7,10 @@ body{
     --nav-color: white;
     --nav-active-item-color:  #333230;
     --nav-font-color:  #333230;
+    --nav-font-family: "Times";
+    --nav-font-size: 30px;
     --nav-bg-color: #4e4c4574;
+    --nav-font-color-active: white;
 }
 
 .nav-menu ul li a{
@@ -22,7 +25,32 @@ body{
     align-items: center;
 }
 
-.first-section img{
-    width: 290px;
-    height: 290px;
+.first-section .logo{
+    width: 380px;
+    height: 380px;
+}
+
+.home-slide{
+    height: fit-content;
+    width: 1000;
+    margin:100px 0 100px 0;
+    --slide-width: 100%;
+    --slide-height: auto;
+    --slide-button-bkg: Transparent;
+    --slide-button-border: none;
+}
+
+.galho{
+    position: absolute;
+    top:0;
+    width: 200px;
+    height: auto;
+}
+
+.galho.esquerdo{
+    left:0;
+}
+
+.galho.direito{
+    right:0;
 }

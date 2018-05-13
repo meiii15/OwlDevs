@@ -9,6 +9,9 @@
             <script src="./js/components/page-section/page-section.js"></script>
             <link rel="import" href="./js/components/page-section/page-section.html" onload="SectionPageProto.onLoadTemplate(event)">
 
+            <script src="./js/components/slide/slide.js"></script>
+            <link rel="import" href="./js/components/slide/slide.html" onload="SlideProto.onLoadTemplate(event)">
+
             <script src="./js/index.js"></script>
 
             <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -17,7 +20,18 @@
         <body>
             <page-section>
                 <div slot="section-content" class="first-section">
-                    <img src="./imgs/loguinho.png"/>
+                    <img class="galho esquerdo" src="./imgs/galho.png"/>
+                    <img class="galho direito" src="./imgs/galho-1.png"/>
+                    
+                    <img src="./imgs/loguinho.png" class="logo"/>
+                    
+                    <slide-view class="home-slide">
+                        <div slot="slides">
+                            <img src="imgs/sitesecommerce.png" style="width:100%; height: auto">
+                            <img src="imgs/sitesecommerce.png" style="width:100%; height: auto">
+                            <img src="imgs/sitesecommerce.png" style="width:100%; height: auto">
+                        </div>
+                    </slide-view>
 
                     <navigation-header class="nav-menu"></navigation-header>
                 </div>

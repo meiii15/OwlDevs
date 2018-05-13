@@ -33,4 +33,5 @@
 window.onload = function() {
   document.registerElement('navigation-header', {prototype: NavigationHeaderProto});
   document.registerElement('page-section', {prototype: SectionPageProto});
+  document.registerElement('slide-view', {prototype: SlideProto});
 };

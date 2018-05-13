@@ -13,21 +13,29 @@
     }
     
     ul li{
-        padding: 0 10px 0 10px;
+        padding: 10px 20px 10px 20px;
         height: 30px;
         display: flex;
         flex-flow: column;
         justify-content: center;
     }
+    
+    ul li a {
+        color: var(--nav-font-color);
+        font-family: var(--nav-font-family);
+        font-size: var(--nav-font-size);
+        text-decoration: none;
+    }
 
     ul li.active {
         background: var(--nav-active-item-color)
     }
-
-    ul li a {
-        color: var(--nav-font-color);
-        text-decoration: none;
+    
+    ul li.active a{
+        color: var(--nav-font-color-active);
     }
+
+
 </style>
 
 <ul>

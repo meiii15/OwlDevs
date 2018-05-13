@@ -1,0 +1,40 @@
+<style>
+    :host{
+        width: 100%;
+    }
+
+    [slot="slides"]{
+        width: 100%;
+    }
+    
+    .slides-container{
+        display: flex;
+        justify-content: space-between;
+        width: var(--slide-with, 100%);
+        height: var(--slide-height, 100%);
+    }
+    
+    button{
+        width: var(--slide-button-width, auto);
+        height: var(--slide-button-height, auto);
+        background: var(--slide-button-bkg);
+        border: var(--slide-button-border);
+        margin: 10px;
+    }
+
+    .slides-container{
+        width: var(--slide-container-width, 100%);
+        height: var(--slide-container-height, 100%);
+        background: var(--slide-container-bkg);
+        border: var(--slide-container-border);
+    }
+</style>
+
+<div class="slides-container">
+
+    <button id="previous-btn"> &#10094; </button>
+    
+    <slot name="slides"></slot>
+
+    <button id="next-btn"> &#10095; </button>
+</div>
